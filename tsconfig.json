@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 16",
+
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "ES2020",
+      "dom"
+    ],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "./node_modules/@tsconfig/node16",
+    "experimentalDecorators": true
+  },
+  "files": [
+    "./index.ts"
+  ],
+  "extends": "./tsconfig-extends.json",
+  "compileOnSave": true,
+
+  "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+
